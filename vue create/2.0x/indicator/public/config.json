@@ -1,0 +1,4 @@
+{
+  "zzdSrc": "https://login-pro.ding.zj.gov.cn/oauth2/auth.htm?response_type=code&client_id=yjjk_zwfw_dingoa&redirect_uri=https://szys.citybrain.hangzhou.gov.cn:5443/szys-web/dingtalk/callback&scope=get_user_info&authType=QRCODE&embedMode=true",
+  "zyddSrc": "https://login.dg-work.cn/oauth2/auth.htm?response_type=code&client_id=YSHJ_dingoa&redirect_uri=http://10.54.38.159:8801/szys/dingtalk/callback&scope=get_user_info&authType=QRCODE&embedMode=true"
+}

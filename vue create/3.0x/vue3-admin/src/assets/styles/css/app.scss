@@ -1,0 +1,17 @@
+/*
+* @Author: wqsong2
+* @Date: 2023/12/15 11:03
+* @Desciption:主布局样式
+*/
+.layout-container {
+  width: 100%;
+  height: 100%;
+  .layout-pd {
+    padding: 15px !important;
+  }
+  .layout-flex {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}

@@ -1,0 +1,330 @@
+/*
+* @Author: wqsong2
+* @Date: 2023/7/25 15:46
+* @Desciption:公共基础样式
+*/
+@import "mixins/color.less";
+@import "mixins/element.less";
+
+// 滚动条样式
+::-webkit-scrollbar-track-piece {
+  background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dddddd;
+  background-clip: padding-box;
+  min-height: 25px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
+}
+
+// 鼠标放置样式
+.cursor-p {
+  cursor: pointer;
+}
+
+.cursor-d {
+  cursor: default;
+}
+
+.cursor-m {
+  cursor: move;
+}
+
+// margin
+body {
+  .m0 {
+    margin: 0;
+  }
+
+  .mtb5 {
+    margin: 5px 0px;
+  }
+
+  .mrl5 {
+    margin: 0px 5px;
+  }
+
+  .mr5 {
+    margin-right: @5;
+  }
+
+  .mb5 {
+    margin-bottom: @5;
+  }
+
+  .ml5 {
+    margin-left: @5;
+  }
+
+  .mr10 {
+    margin-right: @10;
+  }
+
+  .ml10 {
+    margin-left: @10;
+  }
+
+  .mt10 {
+    margin-top: @10;
+  }
+
+  .mb10 {
+    margin-bottom: @10;
+  }
+
+  .mb15 {
+    margin-bottom: @15;
+  }
+
+  .mt15 {
+    margin-top: @15;
+  }
+
+  .ml15 {
+    margin-left: @15;
+  }
+
+  .ml20 {
+    margin-left: @20;
+  }
+
+  .mt20 {
+    margin-top: @20;
+  }
+
+  .mb20 {
+    margin-bottom: @20;
+  }
+
+  .mr20 {
+    margin-right: @20;
+  }
+
+  .ml30 {
+    margin-left: @30;
+  }
+
+  .mt30 {
+    margin-top: @30;
+  }
+}
+
+// padding
+body {
+  .ptb5 {
+    margin: 5px 0px;
+  }
+
+  .prl5 {
+    margin: 0px 5px;
+  }
+
+  .pl5 {
+    padding-left: @5;
+  }
+
+  .pl10 {
+    padding-left: @10;
+  }
+
+  .pl15 {
+    padding-left: @15;
+  }
+
+  .pr10 {
+    padding-right: @10;
+  }
+
+  .pr15 {
+    padding-right: @15;
+  }
+
+  .pl20 {
+    padding-left: @20;
+  }
+
+  .pl30 {
+    padding-left: @30;
+  }
+}
+
+// 字体大小
+.fz10 {
+  font-size: @fontSize10;
+}
+
+.fz12 {
+  font-size: @fontSize12;
+}
+
+.fz14 {
+  font-size: @fontSize14;
+}
+
+.fz15 {
+  font-size: @fontSize15;
+}
+
+.fz16 {
+  font-size: @fontSize16;
+}
+
+.fz17 {
+  font-size: @fontSize17;
+}
+
+.fz18 {
+  font-size: @fontSize18;
+}
+
+.fz22 {
+  font-size: @fontSize22;
+}
+
+.fz24 {
+  font-size: @fontSize24;
+}
+
+//字体加粗
+.fw-b {
+  font-weight: bold;
+}
+
+//display:flex  flex布局的相关样式
+.flex {
+  display: flex;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.flex-h-1 {
+  height: 0;
+}
+
+//文字位置
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.tc {
+  text-align: center;
+}
+
+//字体颜色
+.cf {
+  color: @colorF;
+}
+
+.c3 {
+  color: @color3;
+}
+
+//背景颜色
+.bf {
+  background-color: @basBackgroundColorF;
+}
+
+//浮动
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0;
+}
+
+// 隐藏
+.hide {
+  display: none;
+}
+.text-btn {
+  cursor: pointer;
+  color: #1776FF;
+
+  &+.text-btn {
+    margin-left: 5px;
+  }
+
+  &.delete {
+    color: #ec6941;
+  }
+
+  &.disabled {
+    color: #ccc;
+    cursor: no-drop;
+  }
+}
+
+// flex 布局系
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-bet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-col-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-w-1 {
+  flex: 1;
+  width: 0;
+}
+
+.flex-h-1 {
+  flex: 1;
+  height: 0;
+}
+
+.ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

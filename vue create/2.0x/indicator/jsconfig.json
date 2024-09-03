@@ -1,0 +1,91 @@
+{
+  "baseUrl": ".",
+  "include": ["src/**/*", "tests/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "es2015",
+    "paths": {
+      "$public/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/*"],
+      "$public": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\public/index.css"
+      ],
+      "@/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/*"],
+      "@": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src/index.css"
+      ],
+      "@@/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/*"],
+      "@@": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web/index.css"
+      ],
+      "@components/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/*"],
+      "@components": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\components/index.css"
+      ],
+      "@utils/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/*"],
+      "@utils": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\utils/index.css"
+      ],
+      "@styles/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/*"],
+      "@styles": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\styles/index.css"
+      ],
+      "@resources/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/*"],
+      "@resources": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\resources/index.css"
+      ],
+      "vue/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/*"],
+      "vue": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.css"
+      ],
+      "VUE/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/*"],
+      "VUE": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\node_modules\\vue\\dist\\vue.js/index.css"
+      ],
+      "@indicator/*": ["C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/*"],
+      "@indicator": [
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/index.js",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/index.json",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/InstrumentClusterBasic.vue",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/index.scss",
+        "C:\\Users\\13010\\Desktop\\yth-dm-indicator-web\\src\\packages\\indicator/index.css"
+      ]
+    }
+  }
+}
